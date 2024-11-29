@@ -6,9 +6,6 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-html {
-    scroll-behavior: smooth;
-}
 
 /* Stylings for whole side */
 ul {
@@ -56,7 +53,6 @@ img {
 header {
     position: fixed;
     width: 100%;
-    z-index: 5;
     background: #13274F;
 }
 
@@ -93,7 +89,6 @@ header .navbar {
 
 /* Inicio section styling */
 .inicio-section {
-    min-height: 100vh;
     background: #13274F;
 }
 
@@ -179,7 +174,7 @@ header .navbar {
     display: flex;
     flex-wrap: wrap;
     gap: 110px;
-    align-items: centers;
+    align-items: center;
     justify-content: space-between;
 }
 
